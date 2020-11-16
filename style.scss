@@ -1,0 +1,306 @@
+  @font-face {
+font-family: "JosefinSans"; 
+   src: url(fonts/Bold/aleo-bold-webfont.ttf)
+  
+}
+@font-face {
+    font-family: "regular";
+    src: url(fonts/Regular/aleo-regular-webfont.ttf)
+}
+
+.contener {
+    @extend %contener-foot;
+    h1 {
+        color: #ffffff;
+        display:flex;
+       position: absolute;
+       padding-left: 40%;
+       padding-bottom: 200px;
+       font-size: 45px;
+       font-family: "JosefinSans";
+ }
+    .fool {
+        color: #ffffff;
+       display:flex;
+       position: absolute;
+       padding-left: 40%;
+       padding-bottom: 100px;
+       font-size: 28px;
+       font-family: "regular";
+    }
+    .go {
+           input {
+            background-color: rgb(255, 255, 255);
+            position: absolute;
+            left: 31%;
+            top: 350px;
+            width: 29%;
+            height: 54px;
+            z-index: 91;
+           }
+        button {
+            position: absolute;
+            color: #ffffff;
+            border-width: 2px;
+            border-color: rgb(255, 255, 255);
+            border-style: solid;
+            background-color: rgb(84, 116, 253);
+            left: 60%;
+            top: 350px;
+            width: 146px;
+            height: 59px;
+            z-index: 92;
+            }
+        i {
+            color: #ffffff;
+            font-size: 25px;
+            margin-top: -5px;
+            margin-left: 15px;
+            position: absolute;
+           }
+    }
+    .cont {
+        
+        border: 1px #5474fd solid;
+        background-color: #5474fd;
+        width: 99%;
+        height: 75px;
+        display: flex;
+        position: absolute;
+        margin-top: 51%;
+        .styl {
+        margin-left: 47%;
+        margin-top: 30px;
+        }
+    .styl1 {
+        
+        color: #ffffff;
+        text-decoration: none;
+        padding: 30px;
+        }
+    }
+    .logo1 {
+        font-size: 28px;
+        color: #ffffff;
+        display: flex;
+        position: absolute;
+        padding-top: 51%;
+        padding-left: 10%;
+        }
+}
+
+.portfolio {
+   @extend %contener-foot;
+    h3 {
+      position: absolute;
+      color: #ffffff;
+      font-size: 30px;
+      padding-left: 10%;
+      padding-bottom: 12%;
+    }
+    .port {
+        position: absolute;
+        color: #ffffff;
+        padding-left: 10%;
+        padding-top: 5em;
+    }
+    .exp {
+        position: absolute;
+        color: #ffffff;
+        margin-left: 10%;
+        margin-top: 25%; 
+        padding: 20px 40px 20px 40px;
+        border: 1px #496bfe solid;
+        background-color: #496bfe;
+        text-decoration: none;
+    }
+    .im {
+        position: absolute;
+        margin-top: 4em;
+    }
+    .im1 {
+        position: absolute;
+        padding-left: 59%;
+    }
+    .im2 {
+        padding-left: 65em;
+        
+        padding-top: 14em;
+    }
+}
+.portfolio1 {
+    border: 1px #333333 solid;
+    background-color: #333333;
+    height: 300px;
+    width: 100%;
+    display: flex ;
+    justify-content: center;
+    
+    .how {
+        position: absolute;
+        padding-top: 80px;
+    
+    .g {
+     padding-right: 170px;
+     padding-left: 170px;
+    }
+   }
+   .coni{
+    position: absolute;
+    margin-top: 180px;
+   .boo {
+    padding: 124px;
+    text-decoration: none;
+    font-size: 28px;
+    color: #ffffff;
+   }
+ }
+}
+.secti {
+    @extend %contener-foot;
+    .blok {
+        background-color: rgb(35, 35, 35);
+    opacity: 0.902;
+    position: absolute;
+    left: 10%;
+    top: 1710px;
+    width: 540px;
+    height: 371px;
+    z-index: 29;
+    p {
+        color: #ffffff;
+        font-size: 16px;
+        padding-left: 20px;
+        padding-top: 20px;
+        font-family: regular;
+        line-height: 1.5;
+    }
+    .sis {
+        padding-top: 45px;
+        padding-left: 24px;
+    }
+    .bo {
+        text-decoration: none;
+        color: #ffffff;
+        border: 1p #496bfe solid;
+        background-color: #496bfe; 
+        padding: 20px 65px 20px 65px;
+     } 
+    }
+  }
+  .secti1 {
+      @extend %contener-foot;
+      .blok1 {
+        background-color: rgb(35, 35, 35);
+        opacity: 0.902;
+        position: absolute;
+        left: 56%;
+        top: 2300px;
+        width: 540px;
+        height: 371px;
+        z-index: 42;
+      p {
+         color: #ffffff; 
+         font-size: 16px;
+        padding-left: 20px;
+        padding-top: 20px;
+        font-family: regular;
+        line-height: 1.5;
+      }
+      .sis1 {
+        padding-top: 45px;
+        padding-left: 24px;
+      }
+      .bo1 {
+        text-decoration: none;
+        color: #ffffff;
+        border: 1p #496bfe solid;
+        background-color: #496bfe; 
+        padding: 20px 65px 20px 65px;
+      }
+   }
+}
+
+.testi {
+    @extend %contener-foot;
+    h4 {
+        color: #ffffff;
+        position: absolute;
+        display: flex;
+        padding-bottom: 500px;
+        padding-left: 38%;
+        font-size: 35px;
+        
+
+    }
+    .boxed {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        padding-left: 10%;
+        
+        .ex {
+                background-color: rgb(51, 51, 51);
+                left: 790px;
+                top: 2500px;
+                width: 750px;
+                height: 284px;
+                z-index: 20;
+                .po {
+                    font-size: 24px;
+                    font-family: regular;
+                }
+              p {
+                 color: #ffffff; 
+                 padding-left: 55px;
+                 padding-top: 2px;
+                 font-family: regular;
+                 line-height: 2;
+              }
+        }
+    }
+  img {
+      max-width: 100%;
+      height: auto;
+  } 
+}
+footer{
+    border: 1px #232323 solid;
+    background-color: #232323;
+    height: 270px;
+    text-align: center;
+    .logo1 {
+        padding-top: 100px;
+        h3 {
+            color: #ffffff;
+            font-family: regular;
+            font-size: 26px;
+        }
+        .pa {
+            color: #ffffff;
+            font-family: regular;
+        }      
+    }
+}
+
+
+  
+
+
+%contener-foot {
+    max-width: 1770px;
+    min-width: 670px;
+    margin: 0 auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+  
+  
+  
+
+
+
+
+  
