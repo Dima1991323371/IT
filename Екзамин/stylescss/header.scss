@@ -1,0 +1,130 @@
+.container {
+    max-width: 1770px;
+    height: 740px;
+    margin: 0 auto;
+    background-image: url(../img/Image.png) ;
+    display: flex;
+    display: block;
+
+    &__body {
+        @extend %container__div;
+        display: flex;
+        display: block;
+        flex-wrap: wrap-reverse;
+    }
+    .Search_Bar {
+        &__form {
+                text-align: center;  
+                margin-top: 50px; 
+                z-index: 98;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                input {
+                        background-color: rgb(255, 255, 255);
+                        border: #ffffff;
+                        width: 500px;
+                        height: 60px;
+                        z-index: 93;
+                        text-align: center;
+                            font-size: 14px;
+                            font-family: "Josefin Sans";
+                            letter-spacing: 3px;
+                            color: rgb(153, 153, 153);
+                            line-height: 1.857;                          
+                }
+                button {
+                        border-width: 2px;
+                        border-color: rgb(255, 255, 255);
+                        border-style: solid;
+                        background-color: rgb(84, 116, 253);
+                        width: 146px;
+                        height: 62px;
+                        z-index: 94;      
+                            font-size: 14px;
+                            font-family: "Aleo";
+                            color: rgb(255, 255, 255);
+                            text-transform: uppercase;
+                            line-height: 1.857;
+                            padding-top: 15px;
+                            padding-left: 30px;
+                            z-index: 96;
+                             display: flex;
+                             justify-content: center;   
+                } 
+                button:hover {
+                      background-color: #3a59e0;
+  
+                }
+                 &__sear {
+                     display: flex;
+                     padding-left: 12px;
+                     padding-top: 5px;
+                          width: 20px;
+                          height: 20px;
+                          z-index: 97;
+                      }    
+                } 
+    .abaut {
+            background-color: rgb(84, 116, 253);
+            margin-top: 215px;
+            width: 100%;
+            height: 80px;
+            z-index: 103;
+        &__slalom {
+                @extend %container__div;
+              display: flex;
+                
+
+        &__logo {
+            font-size: 24px;
+            font-family: "Josefin Sans";
+            color: rgb(255, 255, 255);
+            font-weight: bold;
+            text-transform: uppercase;
+            line-height: 1.083;
+            text-align: left;
+            z-index: 105; 
+            padding-top: 23px;
+            
+        }
+ &__menu {
+     padding-left: 400px;
+     padding-top: 23px;
+    //display: flex;
+    //flex-direction: row;
+    //justify-content: flex-end;
+        &__titel {
+                text-decoration: none;
+                padding-left: 40px;
+                font-size: 14px;
+                font-family: "Aleo";
+                color: rgb(255, 255, 255);
+                text-transform: uppercase;
+                line-height: 1.857;
+                z-index: 111;
+                transition: 0.3s;
+        }
+        &__titel:hover {
+            color: #ff6363;
+        }
+    }
+ }
+    }
+}
+%container__div {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+}
+@media (max-width:1110px) {
+    &__body {
+        max-width: 850px;
+    }
+}
+@media (max-width:880px) {
+    &__body {
+        max-width: 650px;
+    }
+}
+   

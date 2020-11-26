@@ -1,0 +1,69 @@
+@media screen and (max-width: 1000px) {
+  .container {
+    max-width: 1770px;
+    height: 820px;
+    margin: 0 auto;
+    background-image: url(../img/Image.png);
+  }
+  .container .Search_Bar__form {
+    text-align: center;
+    margin-top: 50px;
+    z-index: 98;
+  }
+  .container .Search_Bar__form input {
+    background-color: white;
+    left: 575px;
+    top: 406px;
+    width: 500px;
+    height: 60px;
+    z-index: 93;
+    text-align: center;
+  }
+  .container .Search_Bar__form button {
+    border-width: 2px;
+    border-color: white;
+    border-style: solid;
+    background-color: #3d0325;
+    left: 1075px;
+    top: 406px;
+    width: 146px;
+    height: 60px;
+    z-index: 94;
+  }
+  .container .abaut {
+    background-color: #5474fd;
+    margin-top: 290px;
+    width: 100%;
+    height: 80px;
+    z-index: 103;
+  }
+  .container .abaut__slalom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .container .abaut__slalom__logo {
+    color: #ffffff;
+    display: flex;
+  }
+  .container .abaut__slalom__menu {
+    display: flex;
+    text-align: right;
+  }
+  .container .abaut__slalom__menu__titel {
+    text-decoration: none;
+    padding: 40px;
+    font-size: 14px;
+    font-family: "Aleo";
+    color: white;
+    text-transform: uppercase;
+    line-height: 1.857;
+    z-index: 111;
+    display: flex;
+  }
+
+  .container__body, .container .abaut__slalom {
+    max-width: 1110px;
+    margin: 0 auto;
+  }
+}

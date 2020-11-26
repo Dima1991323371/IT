@@ -1,0 +1,24 @@
+.body {
+&__Bhromaon {
+    font-size: 48px;
+    font-family: "Josefin Sans";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 0.542;
+    text-align: center;
+    padding-top: 25%;
+    z-index: 89;
+  }
+  &__Safe_Travel_Anywhere {
+    font-size: 22px;
+    font-family: "Josefin Sans";
+    letter-spacing: 4.3px;
+    color: rgb(255, 255, 255);
+    line-height: 1.182;
+    text-align: center;
+    padding-top: 10px;
+    z-index: 90;
+  }
+  
+}

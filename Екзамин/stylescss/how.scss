@@ -1,0 +1,14 @@
+.how {
+    max-width: 1770px;
+    height: 335px;
+    margin: 0 auto;
+    display: block;
+    border: 1px #333333 solid;
+    background-color: #333333;
+
+    &__works {
+        max-width: 1110px;
+        margin: 0 auto;
+        display: flex;
+    }
+}

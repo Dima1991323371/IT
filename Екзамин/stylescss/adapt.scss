@@ -1,0 +1,81 @@
+@media screen and (max-width: 1000px) {
+    .container {
+        max-width: 1770px;
+        height: 820px;
+        margin: 0 auto;
+        background-image: url(../img/Image.png);
+    
+        &__body {
+            @extend %container__div;
+        }
+        .Search_Bar {
+            &__form {
+                    text-align: center;  
+                    margin-top: 50px; 
+                    z-index: 98;
+                    input {
+                            background-color: rgb(255, 255, 255);
+                            left: 575px;
+                            top: 406px;
+                            width: 500px;
+                            height: 60px;
+                            z-index: 93;
+                            text-align: center;     
+                    }
+                    button {
+                            border-width: 2px;
+                            border-color: rgb(255, 255, 255);
+                            border-style: solid;
+                            background-color: rgb(84, 116, 253);
+                            left: 1075px;
+                            top: 406px;
+                            width: 146px;
+                            height: 60px;
+                            z-index: 94;                      
+                    }
+    
+            }
+        }
+        .abaut {
+                background-color: rgb(84, 116, 253);
+                margin-top: 290px;
+                width: 100%;
+                height: 80px;
+                z-index: 103;
+            &__slalom {
+                    @extend %container__div;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+            &__logo {
+            color: #ffffff;
+            display: flex;
+    
+            }
+     &__menu {
+    display: flex;
+            text-align: right;
+            &__titel {
+                    text-decoration: none;
+                    padding: 40px;
+                    font-size: 14px;
+                    font-family: "Aleo";
+                    color: rgb(255, 255, 255);
+                    text-transform: uppercase;
+                    line-height: 1.857;
+                    z-index: 111;
+                    display: flex;
+                    
+                  
+            }
+        }
+    }
+        }
+    }
+    
+        %container__div {
+            max-width: 1110px;
+            margin: 0 auto;
+        }
+        
+}
